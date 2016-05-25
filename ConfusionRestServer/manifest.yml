@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: ConfusionRestServer
+  host: confusionrestserver
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-69
+  - MongoDB
